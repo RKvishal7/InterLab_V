@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F9F8F6;
+    color: #1A1C1E;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  code, pre, kbd {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Sleek Interface high-precision UI utility styles */
+.sleek-border {
+  border-color: #E2E2DE;
+}
+
+.workspace-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E2DE;
+  box-shadow: 0 1px 2px 0 rgba(26, 28, 30, 0.03);
+}
+
+.sleek-input {
+  background-color: #F9F8F6;
+  border: 1px solid #E2E2DE;
+  color: #1A1C1E;
+}
+
+.sleek-input:focus {
+  border-color: #1A1C1E;
+  outline: none;
+}
+
+/* Custom crisp scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E2E2DE;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8A8A85;
+}
+
+

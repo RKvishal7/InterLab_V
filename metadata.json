@@ -1,0 +1,7 @@
+{
+  "name": "InternLab",
+  "description": "Virtual internship platform where students gain practical experience by completing realistic workplace simulations, projects, and structured career challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
